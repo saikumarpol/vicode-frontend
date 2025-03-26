@@ -211,7 +211,7 @@ import { SiCplusplus, SiMongodb, SiTensorflow, SiKubernetes, SiTableau } from "r
 import PythonRoadmap from "../assets/Python.jpg";
 import JavaRoadmap from "../assets/java.jpg";
 import CppRoadmap from "../assets/cpp.jpg";
-import DsaRoadmap from "../assets/dsa.jpg";
+import DsaRoadmap from "../assets/DSA.jpg";
 import FrontendRoadmap from "../assets/frontend.jpg";
 import BackendRoadmap from "../assets/backend.jpg";
 import FullstackRoadmap from "../assets/fullstack.jpg";
