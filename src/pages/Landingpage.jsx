@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaCode, FaRocket, FaLaptopCode } from "react-icons/fa";
 import { useNavigate } from "react-router-dom"; 
-import "./LandingPage.css";
+import './Landingpage.css'
 
 export default function LandingPage() {
     const navigate = useNavigate();
