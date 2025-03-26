@@ -11,7 +11,7 @@
 //     const [error, setError] = useState(null);
 
 //     useEffect(() => {
-//         fetch("https://next-code-academy-1.onrender.com/api/jobs")
+//         fetch("https://vi-code-backend.onrender.com/api/jobs")
 //             .then((res) => {
 //                 if (!res.ok) {
 //                     throw new Error("Failed to fetch jobs");
@@ -127,7 +127,7 @@ export default function Home() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch("https://next-code-academy-1.onrender.com/api/jobs")
+        fetch("https://vi-code-backend.onrender.com/api/jobs")
             .then((res) => {
                 if (!res.ok) {
                     throw new Error("Failed to fetch jobs");

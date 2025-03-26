@@ -9,7 +9,7 @@
 
 //     const handleLogin = async () => {
 //         try {
-//             const res = await fetch("https://next-code-academy-1.onrender.com/api/admin/login", {
+//             const res = await fetch("https://vi-code-backend.onrender.com/api/admin/login", {
 //                 method: "POST",
 //                 headers: { "Content-Type": "application/json" },
 //                 body: JSON.stringify({ username, password }),
@@ -94,7 +94,7 @@ export default function AdminLogin() {
 
     const handleLogin = async () => {
         try {
-            const res = await fetch("https://next-code-academy-1.onrender.com/api/admin/login", {
+            const res = await fetch("https://vi-code-backend.onrender.com/api/admin/login", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ username, password }),

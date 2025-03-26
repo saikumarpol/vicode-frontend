@@ -29,7 +29,7 @@
 //     const fetchJobs = async () => {
 //         setLoading(true);
 //         try {
-//             const res = await fetch("https://next-code-academy-1.onrender.com/api/jobs");
+//             const res = await fetch("https://vi-code-backend.onrender.com/api/jobs");
 //             const data = await res.json();
 
 //             const filteredJobs = data
@@ -68,7 +68,7 @@
 //         };
 
 //         try {
-//             const res = await fetch("https://next-code-academy-1.onrender.com/api/jobs", {
+//             const res = await fetch("https://vi-code-backend.onrender.com/api/jobs", {
 //                 method: "POST",
 //                 headers: {
 //                     "Content-Type": "application/json",
@@ -278,7 +278,7 @@ export default function Dashboard() {
     const fetchJobs = async () => {
         setLoading(true);
         try {
-            const res = await fetch("https://next-code-academy-1.onrender.com/api/jobs");
+            const res = await fetch("https://vi-code-backend.onrender.com/api/jobs");
             const data = await res.json();
 
             const filteredJobs = data.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
@@ -316,7 +316,7 @@ export default function Dashboard() {
         };
 
         try {
-            const res = await fetch("https://next-code-academy-1.onrender.com/api/jobs", {
+            const res = await fetch("https://vi-code-backend.onrender.com/api/jobs", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
